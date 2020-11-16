@@ -1,0 +1,41 @@
+apiVersion: v1
+entries:
+  aws-ebs-csi-driver:
+  - apiVersion: v1
+    appVersion: 0.5.0
+    created: "2020-11-16T15:07:31.839221126Z"
+    description: A Helm chart for AWS EBS CSI Driver
+    digest: 373184b30dd44009fc0df540754b1ea4414e829cc5cd0df8c0df5c163860ace9
+    home: https://github.com/kubernetes-sigs/aws-ebs-csi-driver
+    keywords:
+    - aws
+    - ebs
+    - csi
+    kubeVersion: '>=1.13.0-0'
+    maintainers:
+    - email: chengpan@amazon.com
+      name: leakingtapan
+    name: aws-ebs-csi-driver
+    sources:
+    - https://github.com/kubernetes-sigs/aws-ebs-csi-driver
+    urls:
+    - https://github.com/criticalstack/charts/releases/download/aws-ebs-csi-driver-0.3.0/aws-ebs-csi-driver-0.3.0.tgz
+    version: 0.3.0
+  local-path-provisioner:
+  - apiVersion: v1
+    appVersion: v0.0.12
+    created: "2020-11-16T15:07:32.138714574Z"
+    description: Use HostPath for persistent local storage with Kubernetes
+    digest: b8dd3d86e5d96d8532d6bdee37401e385feb2eb4e604ed8521bc43929238ab00
+    home: https://github.com/rancher/local-path-provisioner
+    keywords:
+    - storage
+    - hostpath
+    kubeVersion: '>=1.12.0-r0'
+    name: local-path-provisioner
+    sources:
+    - https://github.com/rancher/local-path-provisioner.git
+    urls:
+    - https://github.com/criticalstack/charts/releases/download/local-path-provisioner-0.0.12/local-path-provisioner-0.0.12.tgz
+    version: 0.0.12
+generated: "2020-11-16T15:07:31.349490478Z"
