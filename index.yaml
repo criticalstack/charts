@@ -38,4 +38,16 @@ entries:
     urls:
     - https://github.com/criticalstack/charts/releases/download/local-path-provisioner-0.0.12/local-path-provisioner-0.0.12.tgz
     version: 0.0.12
+  swoll:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-11-16T21:26:09.298670969Z"
+    description: an experimental suite of applications and APIs for monitoring kernel-level
+      activity on a live Kubernetes cluster
+    digest: 57c597497630e9606ea030f1bbd73dd431d1ec23a191044738e59034056677ac
+    name: swoll
+    type: application
+    urls:
+    - https://github.com/criticalstack/charts/releases/download/swoll-0.1.0/swoll-0.1.0.tgz
+    version: 0.1.0
 generated: "2020-11-16T15:07:31.349490478Z"
